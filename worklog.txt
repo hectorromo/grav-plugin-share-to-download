@@ -1,0 +1,21 @@
+This plugin helps with "share to download" digital content.
+
+Social media:
+	Facebook
+	Twitter
+
+Include a tag in the content where you want to display the downloadable content.
+
+
+
+
+
+
+Where to activate plugin???
+
+Options:
+
+	Everywhere
+	Specific Twig Templates
+	Specific Pages
+	

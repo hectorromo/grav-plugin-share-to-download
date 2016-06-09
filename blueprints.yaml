@@ -1,0 +1,37 @@
+name: Share to download
+version: 0.0.1
+description: Pay with a tweet or facebook share to download a file
+icon: twitter
+author:
+  name: Hector Romo
+  email: info@hectorromo.com
+  url: http://www.hectorromo.com
+homepage: https://github.com/hectorromo/grav-plugin-share-to-download
+keywords: twitter, facebook, share, plugin
+bugs: https://github.com/hectorromo/grav-plugin-share-to-download/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    twitter_id:
+      label: Twitter Id
+      type: text
+
+    home.alias:
+      type: pages
+      size: medium
+      classes: fancy
+      label: Test Pages
+      show_all: true
+      help: Help
